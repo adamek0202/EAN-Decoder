@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Process
+public class Zpracovani
 {
-	public static void Processer(int number)
+	public static void Zpracuj(int number)
 	{
 		string state = "";
 		bool valid = true;
@@ -452,7 +452,7 @@ public class Process
 
 		else
 		{
-			MessageBox.Show("Neplatný kód", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			MessageBox.Show("Kód není platnej, ale můžeš zkusit zadat jinej.", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 		}
 	}
 }
