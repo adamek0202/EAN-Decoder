@@ -9,7 +9,7 @@
     <UseWindowsForms>True</UseWindowsForms>
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
-    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
